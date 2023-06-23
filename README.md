@@ -189,11 +189,12 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 ```
 2. Ingresamos a la plataforma **node-red** y acemos el diagrama como se muestra en la siguente imagen.
 
-![](https://github.com/ser2784/Practica-esp32-ultrasonico-con-node-red/blob/main/Practica%20esp32%20con%20ultrasonico%20node-red%20%20codigo.png)
+![](https://github.com/ser2784/Practica-ultrasonico-y-dht22-con-node-red/blob/main/Practica%20ultrasonico%20y%20dht22%20con%20node-red%20diagrama.png)
 
 3. Hacer la conexion de **node-red** con la **ESP32** como se muestra en la siguente imagen.
 
-![](https://github.com/ser2784/Practica-esp32-ultrasonico-con-node-red/blob/main/Practica%20esp32%20con%20ultrasonico%20node-red%20diagrama.png)
+![](https://github.com/ser2784/Practica-ultrasonico-y-dht22-con-node-red/blob/main/Practica%20ultrasonico%20y%20dht22%20con%20node-red%20diagrama%202.png)
+
 
 ### Instrucciónes de operación
 
