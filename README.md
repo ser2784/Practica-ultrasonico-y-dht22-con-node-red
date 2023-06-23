@@ -5,7 +5,7 @@ Este repositorio muestra como podemos programar una ESP32 con el sensor ultrason
 
 ### Descripción
 
-La ```Esp32``` la utilizamos en un entorno de adquision de datos, lo cual en esta practica ocuparemos la platafoma  (```node-red```) para adquirir temperatura y humedad del entorno; Cabe aclarar que esta practica se usara un simulador llamado [WOKWI](https://https://wokwi.com/). y plataforma [node-red] (http://localhost:1880/ui/#!/0?socketid=GastYhmOZGDVaQArAAAN)
+La ```Esp32``` la utilizamos en un entorno de adquision de datos, lo cual en esta practica ocuparemos la platafoma  (```node-red```) para adquirir temperatura y humedad del entorno tambien la Distancia; Cabe aclarar que esta practica se usara un simulador llamado [WOKWI](https://https://wokwi.com/). y plataforma [node-red] (http://localhost:1880/ui/#!/0?socketid=GastYhmOZGDVaQArAAAN)
 
 
 ## Material Necesario
@@ -17,6 +17,7 @@ Para realizar esta practica necesitas lo siguiente
 - [node-red] (http://localhost:1880/#flow/33551a14c9f5e89f)
 - Tarjeta ESP 32
 - Sensor ultrasonico
+- DTH22
 
 
 
@@ -203,10 +204,14 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 ## Resultados
 
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
+## Diagrama
 
-![](https://github.com/ser2784/Practica-esp32-ultrasonico-con-node-red/blob/main/Practica%20esp32%20ultrasonico%20con%20node-red.png)
+![](https://github.com/ser2784/Practica-ultrasonico-y-dht22-con-node-red/blob/main/Practica%20ultrasonico%20y%20dht22%20con%20node-red%20diagrama.png)
 
+![](https://github.com/ser2784/Practica-ultrasonico-y-dht22-con-node-red/blob/main/Practica%20ultrasonico%20y%20dht22%20con%20node-red%20diagrama%202.png)
+## Resultados y Grafica 
 
+![](https://github.com/ser2784/Practica-ultrasonico-y-dht22-con-node-red/blob/main/Practica%20ultrasonico%20y%20dht22%20con%20node-red%20lecturas.png)
 
 
 ## Evidencias
